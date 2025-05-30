@@ -1,8 +1,9 @@
 function inverterArray(arr) {
-    return inverter = 0;
-    for(let i = 0; i < arr.length; i--){
-        inverter = 0;
+    let inverter = [];
+    for(let i = arr.length - 1; i >= 0; i--){
+        inverter.push(arr[i]);
+
     }
-    return inverter;
+    console.log(inverter);
 }
-console.log(inverterArray[10, 2, 3, 5,23]);
+inverterArray[10, 2, 3, 5,23]
